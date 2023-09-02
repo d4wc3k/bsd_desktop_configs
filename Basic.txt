@@ -1,0 +1,10 @@
+portmaster -v -d -m "MAKE_JOBS=16"
+
+Basic:
+devel/git editors/neovim sysutils/tmux
+#
+Basic X:
+x11/xorg x11-wm/xfce4 x11/nvidia-driver x11/nvidia-xconfig 
+
+#Apps
+x11-themes/gtk-arc-themes x11-themes/papirus-icon-theme editors/mousepad www/firefox-esr x11/xfce4-screensaver x11/xfce4-screenshooter-plugin x11/xfce4-taskmanager sysutils/xfce4-power-manager audio/xfce4-pulseaudio-plugin graphics/ristretto graphics/evince@lite archivers/file-roller archivers/thunar-archive-plugin ftp/wget ftp/curl net/rsync multimedia/mpv multimedia/audacious multimedia/audacious-plugins sysutils/fusefs-ntfs sysutils/pwgen sysutils/password-store security/py-xkcdpass security/keepassxc editors/libreoffice math/gnome-calculator security/gnupg emulators/virtualbox-ose security/doas security/veracrypt
